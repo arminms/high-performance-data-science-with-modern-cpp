@@ -1,0 +1,18 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 43a9bd6c-5b8b-4e34-bef8-897f683b8bf6
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/arminms/high-performance-data-science-with-modern-cpp
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - file: index.md
+
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
