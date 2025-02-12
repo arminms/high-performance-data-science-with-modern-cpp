@@ -2,6 +2,15 @@
 title: High-Performance Data Science with Modern C++
 subtitle: The Executable Book
 description: The Modern C++ interface to Data Science World
+authors:
+  - name: Armin Sobhani
+    affiliations:
+      - id: uoit
+        institution: Ontario Tech University
+        ror: 016zre027
+        department: Science
+    email: asobhani@sharcnet.ca
+    url: https://staff.sharcnet.ca/asobhani
 ---
 
 [![GitHub License](https://img.shields.io/github/license/arminms/high-performance-data-science-with-modern-cpp?logo=github&logoColor=lightgrey&color=green)](https://github.com/arminms/high-performance-data-science-with-modern-cpp/blob/main/LICENSE)
