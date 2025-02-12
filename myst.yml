@@ -3,10 +3,12 @@ version: 1
 project:
   id: 43a9bd6c-5b8b-4e34-bef8-897f683b8bf6
   title: About the Book
-  # description:
-  # keywords: []
-  # authors: []
+  description: High-Performance Data Science with Modern C++
+  keywords: [C++, Data Science, High-Performance Computing, Parallel Computing, CUDA, OpenMP, xeus-cling, G3P]
   github: https://github.com/arminms/high-performance-data-science-with-modern-cpp
+  jupyter:
+    binder: true
+    kernelName: xcpp17-openmp
   license:
     code: MIT
     content: CC-BY-4.0
@@ -27,17 +29,6 @@ project:
       - file: xeus-cling/03-openmp.md
       - file: xeus-cling/04-cuda.md
     - file: g3p.md
-      # children:
-      # - file: chapter_02_g3p_intro.md
-      # - file: chapter_02_g3p_quickstart.md
-      # - file: chapter_02_g3p_the_basics.md
-      # - file: chapter_02_g3p_embedding_plot_data.md
-      # - file: chapter_02_g3p_animating_plots.md
-      # - file: chapter_02_g3p_troubleshooting.md
-
-    # - file: chapter1.md # Rapid Prototyping with C++
-    # - file: chapter2.md # Plotting with G3P
-    # - file: chapter3.md # MapReduce Model <wiki:mapreduce>
 
 site:
   template: book-theme
