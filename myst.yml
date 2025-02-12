@@ -10,9 +10,34 @@ project:
   license:
     code: MIT
     content: CC-BY-4.0
-  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  references:
+    xeus-cling: https://xeus-cling.readthedocs.io/en/latest
+    xcj: https://armin.sobhani.me/xeus-cling-jupyter/
+    g3p: https://armin.sobhani.me/g3p/
+    mystmd: https://mystmd.org/guide/
+    mamba: https://mamba.readthedocs.io/en/latest
   toc:
     - file: index.md
+    - title: C++ Rapid Prototyping
+      children:
+      - file: xeus-cling/about.md
+      - file: xeus-cling/quickstart.md
+      - file: xeus-cling/01-the-basics.md
+      - file: xeus-cling/02-cpp17-parallel-algorithms.md
+      - file: xeus-cling/03-openmp.md
+      - file: xeus-cling/04-cuda.md
+    - file: g3p.md
+      # children:
+      # - file: chapter_02_g3p_intro.md
+      # - file: chapter_02_g3p_quickstart.md
+      # - file: chapter_02_g3p_the_basics.md
+      # - file: chapter_02_g3p_embedding_plot_data.md
+      # - file: chapter_02_g3p_animating_plots.md
+      # - file: chapter_02_g3p_troubleshooting.md
+
+    # - file: chapter1.md # Rapid Prototyping with C++
+    # - file: chapter2.md # Plotting with G3P
+    # - file: chapter3.md # MapReduce Model <wiki:mapreduce>
 
 site:
   template: book-theme
