@@ -14,12 +14,29 @@ description: All about Cling, Xeus and Xeus-Cling
 
 ## Jupyter Kernel: `Xeus`
 
+::::{div}
+:class: col-body-left
 Jupyter kernels are _programming language specific_ process that run independently and they're usually based on either [`IPython`](wiki:IPython) or [`Xeus`](https://xeus.readthedocs.io/en/latest/). 
+::::
+::::{div}
+:class: col-gutter-right align-middle
+:::{image} https://xeus.readthedocs.io/en/latest/_images/xeus.svg
+:::
+::::
 
 [`Xeus`](https://xeus.readthedocs.io/en/latest/) is a [`C++`](wiki:C++) library that facilitates the implementation of kernels for Jupyter and provides a number of kernels such as [`Xeus-Cling`](xref:xeus-cling) ([`C++`](wiki:C++)), [`Xeus-Sql`](https://github.com/jupyter-xeus/xeus-sql) ([`SQL`](wiki:SQL)) and many more.
 
 ## [`Xeus-Cling`](xref:xeus-cling)
 
+::::{div}
+:class: col-body-left
 [`Xeus-Cling`](xref:xeus-cling) is a Jupyter kernel for ([`C++`](wiki:C++)) based on [`cling`](https://cling.readthedocs.io/en/latest/) as the ([`C++`](wiki:C++)) interpreter and the native implementation of the Jupyter protocol [`Xeus`](https://xeus.readthedocs.io/en/latest/).
+::::
+::::{div}
+:class: col-gutter-right align-middle
+:::{image} https://xeus-cling.readthedocs.io/en/latest/_images/xeus-cling.svg
+:::
+::::
 
 We use [`Xeus-Cling`](xref:xeus-cling) throughout this book to work with our ([`C++`](wiki:C++)) codes interactively. So, let's get started to work with it.
+
