@@ -3,9 +3,6 @@ title: Plotting with G3P
 subtitle: Gnuplot at your fingertips
 subject: About g3p
 description: Start plotting with C++ in a Jupyter Notebook
-kernelspec:
-  name: xcpp17
-  display_name: C++17
 ---
 
 # Plotting with G3P
