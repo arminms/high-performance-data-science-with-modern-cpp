@@ -8,9 +8,23 @@ kernelspec:
 
 # The Basics
 
+## No need for `main()`
+
+Yay! 🎊
+
+## Displaying rich content
+
+To display an object in the front-end you can omit the last semicolon of a code cell. By doing so, the last expression will be displayed:
+
+```{code-cell} cpp
+:tags: [hide-output]
+int i = 10;
+i
+```
+
 ## Declaration shadowing
 
-With `cling` you can redefine a function, variable, or class whose definition was already provided for a particular interpreter session. That's a big quality-of-life improvement for interpreted <wiki:C++> because _without_ it, for instance, if you start with this in a code cell:
+With [`cling`](https://cling.readthedocs.io/en/latest/) you can redefine a function, variable, or class whose definition was already provided for a particular interpreter session. That's a big quality-of-life improvement for interpreted [`C++`](wiki:C++) because _without_ it, for instance, if you start with this in a code cell:
 
 ```{code} cpp
 double foo(double a)
@@ -44,7 +58,7 @@ If you're interested to know how this feature is implemented check <doi:10.1145/
 
 When building a binary, you usually specify the include directories and the library path of third-party libraries in the build tool. The library will be loaded upon binary execution.
 
-xeus-cling is slightly different, it allows you to specify both include directories and library path, however you need to load the library explicitly. This is done with special pragma commands that you can use in a code cell in a Jupyter Notebook:
+[`Xeus-Cling`](xref:xeus-cling) is slightly different, it allows you to specify both include directories and library path, however you need to load the library explicitly. This is done with special pragma commands that you can use in a code cell in a Jupyter Notebook:
 
 ```{code} cpp
 #pragma cling add_include_path("include/directory")
