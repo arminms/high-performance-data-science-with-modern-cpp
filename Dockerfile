@@ -40,7 +40,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 COPY --chown=${NB_UID}:${NB_GID} xeus-cling/*.md ${HOME}/
 RUN set -ex \
     && cd ${HOME} \
-    && rm -rf index.md quick-start.md \
+    && rm -rf about.md quickstart.md \
     && sed -i -e 's/name: xcpp17/name: xcpp17-cuda/g' 04-cuda.md \
     && jupytext --to notebook *.md \
     && rm -rf *.md
