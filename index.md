@@ -10,7 +10,7 @@ authors:
         ror: 016zre027
         department: Science
     orcid: 0000-0003-4089-3862
-    email: asobhani@sharcnet.ca
+    email: armin.sobhani@ontariotechu.ca
     url: https://staff.sharcnet.ca/asobhani
 ---
 
