@@ -30,7 +30,7 @@ description: Start plotting with C++ in a Jupyter Notebook
 ::::
 ::::{div}
 :class: col-body-right
-Back in 2022, I was in need of such a library, but to no avail. I started to think of a quick-and-dirty hack like the one mentioned [here](https://github.com/jupyter-xeus/xeus-cling/issues/435#issuecomment-1170253431). After attending a [SHARCNET's General Interest webinar](https://youtube.sharcnet.ca) by my colleague **Ge Baolai** about [realtime display with Gnuplot](https://youtu.be/A9YPibAEXEE) around the same time, the idea of using <wiki:Gnuplot> as the backend sparked in my mind and <xref:g3p> was born.
+Back in 2022, I was in need of such a library to no avail. I started to think of a quick-and-dirty hack like the one mentioned [here](https://github.com/jupyter-xeus/xeus-cling/issues/435#issuecomment-1170253431). After attending a [SHARCNET's General Interest webinar](https://youtube.sharcnet.ca) by my colleague **Ge Baolai** about [realtime display with Gnuplot](https://youtu.be/A9YPibAEXEE) around the same time, the idea of using <wiki:Gnuplot> as the backend sparked in my mind and <xref:g3p> was born.
 ::::
 
 ## G3P 101
