@@ -22,27 +22,21 @@ authors:
 ::::{grid} 1 1 2 2
 
 :::{grid-item}
-
 This is the home of an [executable book](https://executablebooks.org/) project about using _Modern_ <wiki:C++> for [high-performance](wiki:High-performance_computing) <wiki:data_science>.
 
 It's a companion to a series of talks by [Armin Sobhani](https://armin.sobhani.me) for the [Compute Ontario Colloquia](https://www.computeontario.ca/training-colloquia).
 
 It'll be updated as more talks in the series are delivered.
-
 :::
 
 :::{grid-item}
-
 ```{image} ./images/qrcode.png
 ```
-
 :::
 
 ::::
 
-:::::{aside}
-
-::::{important} Try in a Container
+::::{important} Try in a Container 🛠️
 :class: dropdown
 [Docker:](wiki:Docker_(software))
 ```bash
@@ -62,7 +56,7 @@ apptainer run --nv docker://asobhani/high-performance-data-science-with-modern-c
 ```
 ::::
 
-:::::{seealso} Try on Binder
+:::::{important} Try on Binder 🛠️
 :class: dropdown
 ::::{grid} 2 2 2 2
 :::{grid-item}
@@ -72,8 +66,14 @@ apptainer run --nv docker://asobhani/high-performance-data-science-with-modern-c
 _Be advised sometimes it takes several minutes to start!_
 :::
 ::::
-
 :::::
+
+::::{seealso} Watch the video 📺
+:class: dropdown
+:::{iframe} https://www.youtube.com/embed/YPQUIkSIFhw
+:width: 100%
+:::
+::::
 
 ## C++ vs. Python for Data Science
 
@@ -129,15 +129,3 @@ _Be advised sometimes it takes several minutes to start!_
 :::
 
 ::::
-
-:::::{aside}
-
-````{seealso} Watch the video 📺
-:class: dropdown
-:open:
-
-```{iframe} https://www.youtube.com/embed/YPQUIkSIFhw
-:width: 100%
-```
-````
-:::::
