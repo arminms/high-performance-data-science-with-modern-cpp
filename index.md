@@ -115,7 +115,7 @@ _Be advised sometimes it takes several minutes to start!_
 :header: 💼 **Memory Management** 
 :footer: **Winner**: `C++`🥇
 
-- <wiki:C++> : offers fine-grained control over memory management, which can be crucial for large-scale data processing 👍
+- <wiki:C++> offers fine-grained control over memory management, which can be crucial for large-scale data processing 👍
 - [Python](wiki:Python_language) offers less control compared to `C++` 👎
 :::
 
@@ -128,5 +128,16 @@ _Be advised sometimes it takes several minutes to start!_
 - [Python](wiki:Python_language)'s interpreted nature combined with <wiki:Project_Jupyter> makes it a perfect match for the job 👍
 :::
 
-
 ::::
+
+:::::{aside}
+
+````{seealso} Watch the video 📺
+:class: dropdown
+:open:
+
+```{iframe} https://www.youtube.com/embed/YPQUIkSIFhw
+:width: 100%
+```
+````
+:::::
