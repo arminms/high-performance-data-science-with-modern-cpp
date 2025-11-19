@@ -16,6 +16,7 @@ project:
     xeus-cling: https://xeus-cling.readthedocs.io/en/latest
     xcj: https://armin.sobhani.me/xeus-cling-jupyter/
     g3p: https://armin.sobhani.me/g3p/
+    ranx: https://armin.sobhani.me/ranx/
     mystmd: https://mystmd.org/guide/
     mamba: https://mamba.readthedocs.io/en/latest
   toc:
@@ -28,7 +29,9 @@ project:
       - file: xeus-cling/02-cpp17-parallel-algorithms.md
       - file: xeus-cling/03-openmp.md
       - file: xeus-cling/04-cuda.md
+      - file: xeus-cling/05-cpp20-support.md
     - file: g3p.md
+    - file: ranx.md
 
 site:
   template: book-theme
