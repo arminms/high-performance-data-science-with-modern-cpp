@@ -1,9 +1,9 @@
 ---
 subject: Xeus-Cling Quickstart Tutorial
 kernelspec:
-  name: xcpp17
-  display_name: C++17
-  language: C++17
+  name: xcpp14
+  display_name: C++14
+  language: C++14
 ---
 
 # Working with CUDA
@@ -11,20 +11,45 @@ kernelspec:
 Here's the same vector addition example the we used for <wiki:OpenMP> with <wiki:CUDA>.
 
 :::{tip} Choosing the right kernel 
-Make sure the selected kernel for the notebook is `C++17-CUDA`.
+Make sure the selected kernel for the notebook is `C++14-CUDA`.
 :::
 
 ```{code-cell} cpp
 :tags: [skip-execution]
+#include <iostream>
+
+// CUDA headers
 #include <cuda.h>
 #include <cuda_runtime.h>
 ```
 +++
 ```{code-cell} cpp
 :tags: [skip-execution]
-cudaDeviceProp prop;
-cudaGetDeviceProperties(&prop, 0);
-prop.name
+cudaDeviceProp devProp;
+cudaError_t cudaStatus = cudaGetDeviceProperties(&devProp, 0);
+if (cudaStatus == cudaSuccess)
+    std::cout << "  Name\t\t\t\t: " << devProp.name << '\n'
+              << "  Total global memory\t\t: " << devProp.totalGlobalMem << " bytes\n"
+              << "  Total shared memory per block\t: " << devProp.sharedMemPerBlock << " bytes\n"
+              << "  Total registers per block\t: " << devProp.regsPerBlock << '\n'
+              << "  Warp size\t\t\t: " << devProp.warpSize << '\n'
+              << "  Maximum threads per block\t: " << devProp.maxThreadsPerBlock << '\n'
+              << "  Number of multiprocessors\t: " << devProp.multiProcessorCount << '\n'
+              << "  CUDA Capability\t\t: " << devProp.major << '.' << devProp.minor << std::endl;
+else
+    std::cerr << "cudaGetDeviceProperties failed: " << cudaGetErrorString(cudaStatus) << std::endl;
+
+int runtimeVersion;
+cudaStatus = cudaRuntimeGetVersion(&runtimeVersion);
+if (cudaStatus == cudaSuccess)
+{
+    int major = runtimeVersion / 1000;
+    int minor = (runtimeVersion % 1000) / 10;
+    int patch = runtimeVersion % 10;
+    std::cout << "  CUDA Runtime Version\t\t: " << major << '.' << minor << '.' << patch << std::endl;
+}
+else
+    std::cerr << "Error getting CUDA Runtime Version: " << cudaGetErrorString(cudaStatus) << std::endl;
 ```
 +++
 ```{code-cell} cpp
