@@ -68,7 +68,8 @@ _Be advised sometimes it takes several minutes to start!_
 ::::
 :::::
 
-::::{seealso} Watch the video 📺
+## Watch the Recordings 📺
+::::{seealso} 1️⃣ Xeus-Cling and G3P
 :class: dropdown
 :::{iframe} https://www.youtube.com/embed/YPQUIkSIFhw
 :width: 100%
