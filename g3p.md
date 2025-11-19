@@ -15,6 +15,7 @@ description: Start plotting with C++ in a Jupyter Notebook
 ::::{div}
 :class: col-gutter-left align-middle
 :::{image} https://raw.githubusercontent.com/arminms/g3p/refs/heads/main/docs/images/g3p_logo_bold.svg
+:width: 400px
 :::
 ::::
 ::::{div}
