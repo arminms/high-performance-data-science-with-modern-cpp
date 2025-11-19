@@ -23,11 +23,11 @@ ARG CUDA=0
 
 #-- base-0 image (no CUDA) -----------------------------------------------------
 
-FROM asobhani/xeus-cling-jupyter:latest AS base-0
+FROM asobhani/xeus-cling-jupyter:v1.1.0 AS base-0
 
 #-- base-1 image (with CUDA) ---------------------------------------------------
 
-FROM asobhani/xeus-cling-jupyter:latest-cuda AS base-1
+FROM asobhani/xeus-cling-jupyter:v1.1.0-cuda AS base-1
 
 #-- final image ----------------------------------------------------------------
 
@@ -41,6 +41,6 @@ COPY --chown=${NB_UID}:${NB_GID} xeus-cling/*.md ${HOME}/
 RUN set -ex \
     && cd ${HOME} \
     && rm -rf about.md quickstart.md \
-    && sed -i -e 's/name: xcpp17/name: xcpp17-cuda/g' 04-cuda.md \
+    && sed -i -e 's/name: xcpp14/name: xcpp14-cuda/g' 04-cuda.md \
     && jupytext --to notebook *.md \
     && rm -rf *.md
