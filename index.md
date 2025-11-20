@@ -76,57 +76,70 @@ _Be advised sometimes it takes several minutes to start!_
 :::
 ::::
 
+::::{seealso} 2️⃣ Ranx
+:class: dropdown
+:::{iframe} https://www.youtube.com/embed/vZzM8ko_d-0
+:width: 100%
+:::
+::::
+
 ## C++ vs. Python for Data Science
 
 ::::{grid} 1 1 2 2
 
 :::{card}
 :header: 😌 **Ease of Use** 
-:footer: **Winner**: `Python`🥇
 
-- <wiki:C++> has a steeper learning curve and more complex syntax compared to `Python` 👎
-- [Python](wiki:Python_language)'s syntax is simple and readable, making it accessible for beginners 👍
+|| Winner  🏆 `Python` 🏆 |
+|-|-|
+|🔻|<wiki:C++> has a steeper learning curve and more complex syntax compared to `Python`|
+|✅|[Python](wiki:Python_language)'s syntax is simple and readable, making it accessible for beginners|
 :::
 
 :::{card}
 :header: 📚 **Community and Libraries** 
-:footer: **Winner**: `Python`🥇
 
-- <wiki:C++>'s ecosystem is not as extensive as `Python`'s for data science 👎
-- [Python](wiki:Python_language) has extensive libraries like <wiki:NumPy>, [Pandas](wiki:Pandas_(software)), <wiki:Matplotlib>, etc. and a large and active community 👍
+|| Winner  🏆 `Python` 🏆 |
+|-|-|
+|🔻|<wiki:C++>'s ecosystem is not as extensive as `Python`'s for data science|
+|✅|[Python](wiki:Python_language) has extensive libraries like <wiki:NumPy>, [Pandas](wiki:Pandas_(software)), <wiki:Matplotlib>, etc. and a large and active community|
 :::
 
 :::{card}
 :header: 🏃 **Performance** 
-:footer: **Winner**: `C++`🥇
 
-- <wiki:C++> is known for its high performance and efficiency 👍
-- [Python](wiki:Python_language) is generally slower than _C++_ due to its interpreted nature 👎
+|| Winner  🏆 `C++` 🏆 |
+|-|-|
+|✅|<wiki:C++> is known for its high performance and efficiency|
+|🔻|[Python](wiki:Python_language) is generally slower than _C++_ due to its interpreted nature|
 :::
 
 :::{card}
 :header: 🔀 **Concurrency** 
-:footer: **Winner**: `C++`🥇
 
-- <wiki:C++> has built-in support for [concurrency](https://en.cppreference.com/w/cpp/thread) (`C++11`) and [parallel algorithms](https://en.cppreference.com/w/cpp/algorithm#Execution_policies) (`C++17`) 👍
-- [Python](wiki:Python_language)'s <wiki:global_interpreter_lock> can be a limitation for multi-threaded applications 👎
+|| Winner  🏆 `C++` 🏆 |
+|-|-|
+|✅|<wiki:C++> has built-in support for [concurrency](https://en.cppreference.com/w/cpp/thread) (`C++11`) and [parallel algorithms](https://en.cppreference.com/w/cpp/algorithm#Execution_policies) (`C++17`)|
+|🔻|[Python](wiki:Python_language)'s <wiki:global_interpreter_lock> can be a limitation for multi-threaded applications|
 :::
 
 :::{card}
 :header: 💼 **Memory Management** 
-:footer: **Winner**: `C++`🥇
 
-- <wiki:C++> offers fine-grained control over memory management, which can be crucial for large-scale data processing 👍
-- [Python](wiki:Python_language) offers less control compared to `C++` 👎
+|| Winner  🏆 `C++` 🏆 |
+|-|-|
+|✅|<wiki:C++> offers fine-grained control over memory management, which can be crucial for large-scale data processing|
+|🔻|[Python](wiki:Python_language) offers less control compared to `C++`|
 :::
 
 :::{card}
 :header: 💫 **Rapid Prototyping** 
-:footer: **Winner**: `Python`🥇
 :link: ./xeus-cling/about.md
 
-- <wiki:C++>'s compiled nature makes it a lackluster 👎
-- [Python](wiki:Python_language)'s interpreted nature combined with <wiki:Project_Jupyter> makes it a perfect match for the job 👍
+|| Winner  🏆 `Python` 🏆 |
+|-|-|
+|🔻|<wiki:C++>'s compiled nature makes it a lackluster|
+|✅|[Python](wiki:Python_language)'s interpreted nature combined with <wiki:Project_Jupyter> makes it a perfect match for the job|
 :::
 
 ::::
